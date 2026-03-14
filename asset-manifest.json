@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template/static/css/main.60920e41.css",
-    "main.js": "/react-portfolio-template/static/js/main.178f9d9c.js",
-    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
-    "static/media/m8.png": "/react-portfolio-template/static/media/m8.484b614a063d57e2e360.png",
-    "static/media/m5.png": "/react-portfolio-template/static/media/m5.8e485238a4dd47c050a5.png",
-    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/m4.png": "/react-portfolio-template/static/media/m4.72e57ab4d7d2deac4731.png",
-    "static/media/m7.png": "/react-portfolio-template/static/media/m7.14487b0e435cba4a12a8.png",
-    "static/media/m6.png": "/react-portfolio-template/static/media/m6.05b48663b4c075ed3879.png",
-    "static/media/m3.png": "/react-portfolio-template/static/media/m3.77759faf119ab6b18b36.png",
-    "static/media/m1.png": "/react-portfolio-template/static/media/m1.8a906315ffd16bd6494a.png",
-    "static/media/m2.png": "/react-portfolio-template/static/media/m2.eb81a8840036b60703b7.png",
-    "static/media/linkedin profile image.jpg": "/react-portfolio-template/static/media/linkedin profile image.08280f6c2ea4fd9dcbaa.jpg",
-    "index.html": "/react-portfolio-template/index.html",
-    "main.60920e41.css.map": "/react-portfolio-template/static/css/main.60920e41.css.map",
-    "main.178f9d9c.js.map": "/react-portfolio-template/static/js/main.178f9d9c.js.map",
-    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/profile/static/css/main.f307c82b.css",
+    "main.js": "/profile/static/js/main.2c4de651.js",
+    "static/js/453.b05d8aa5.chunk.js": "/profile/static/js/453.b05d8aa5.chunk.js",
+    "static/media/m8.png": "/profile/static/media/m8.484b614a063d57e2e360.png",
+    "static/media/m5.png": "/profile/static/media/m5.8e485238a4dd47c050a5.png",
+    "static/media/bg-light.png": "/profile/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/profile/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/m4.png": "/profile/static/media/m4.72e57ab4d7d2deac4731.png",
+    "static/media/m7.png": "/profile/static/media/m7.14487b0e435cba4a12a8.png",
+    "static/media/m6.png": "/profile/static/media/m6.05b48663b4c075ed3879.png",
+    "static/media/m3.png": "/profile/static/media/m3.77759faf119ab6b18b36.png",
+    "static/media/m1.png": "/profile/static/media/m1.8a906315ffd16bd6494a.png",
+    "static/media/m2.png": "/profile/static/media/m2.eb81a8840036b60703b7.png",
+    "static/media/linkedin profile image.jpg": "/profile/static/media/linkedin profile image.08280f6c2ea4fd9dcbaa.jpg",
+    "index.html": "/profile/index.html",
+    "main.f307c82b.css.map": "/profile/static/css/main.f307c82b.css.map",
+    "main.2c4de651.js.map": "/profile/static/js/main.2c4de651.js.map",
+    "453.b05d8aa5.chunk.js.map": "/profile/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60920e41.css",
-    "static/js/main.178f9d9c.js"
+    "static/css/main.f307c82b.css",
+    "static/js/main.2c4de651.js"
   ]
 }
