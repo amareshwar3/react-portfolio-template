@@ -16,50 +16,38 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Jan 2026 – Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Analyst Intern - Financial Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">HSBC</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Building backend-driven resource allocation logic and scalable data pipelines for workforce intelligence platform. Developing AI-powered chatbot using LLMs and RAG for risk analytics. Enhanced analytics dashboard with React/TypeScript for real-time insights.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="May 2025 – Jul 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Developer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bharat RobotiX</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Developed and optimized RESTful APIs with Node.js/Express/MongoDB. Automated API testing and validation, improving reliability and performance.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Jan 2025 – Dec 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Head, Corporate Relations</h3>
+            <h4 className="vertical-timeline-element-subtitle">Aparoksha IIIT Allahabad</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+              Led corporate partnerships and managed outreach for national tech fest, driving sponsorships and industry engagement.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

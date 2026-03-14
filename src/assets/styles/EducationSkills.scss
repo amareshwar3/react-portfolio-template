@@ -1,0 +1,67 @@
+.education-skills-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.education-card h3 {
+  margin-top: 0;
+}
+
+.edu-meta {
+  opacity: 0.9;
+}
+
+.skills-block {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.skills-block h2 {
+  margin-top: 0;
+}
+
+.skills-block p {
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+.skills-block .label {
+  font-weight: 700;
+}
+
+.light-mode {
+  .education-card,
+  .skills-block {
+    background: #ffffff;
+    border: 1px solid rgba(13, 17, 22, 0.12);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education-skills-container {
+    padding: 5% 5%;
+  }
+}

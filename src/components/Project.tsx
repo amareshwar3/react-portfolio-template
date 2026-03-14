@@ -1,71 +1,151 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import m1 from '../assets/images/m1.png';
+import m2 from '../assets/images/m2.png';
+import m3 from '../assets/images/m3.png';
+import m4 from '../assets/images/m4.png';
+import m5 from '../assets/images/m5.png';
+import m6 from '../assets/images/m6.png';
+import m7 from '../assets/images/m7.png';
+import m8 from '../assets/images/m8.png';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
+
         <div className="projects-grid">
+
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://game-changers-main.vercel.app/" target="_blank" rel="noreferrer">
+                    <img src={m1} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://game-changers-main.vercel.app/" target="_blank" rel="noreferrer">
+                    <h2>Code Share Test</h2>
+                </a>
+
+                <p>
+                Real-time collaborative coding platform enabling multiple users to write, run,
+                and preview code simultaneously. Built live code synchronization using WebSockets,
+                integrated Judge0 API for multi-language code execution, and implemented secure
+                backend APIs for collaborative session management.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/amareshwar3/API-Gateway-with-Analytics" target="_blank" rel="noreferrer">
+                    <img src={m2} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://github.com/amareshwar3/API-Gateway-with-Analytics" target="_blank" rel="noreferrer">
+                    <h2>API Sentry — API Gateway & Analytics</h2>
+                </a>
+
+                <p>
+                Designed a scalable API gateway system with JWT authentication,
+                RBAC authorization, and Redis-backed rate limiting.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://iiitapfolio-8d6f.onrender.com/" target="_blank" rel="noreferrer">
+                    <img src={m3} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://iiitapfolio-8d6f.onrender.com/" target="_blank" rel="noreferrer">
+                    <h2>IIITA Portfolio Platform</h2>
+                </a>
+
+                <p>
+                Developed a full-stack portfolio platform allowing developers to showcase
+                projects, skills, and professional experience.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://finboard-rosy.vercel.app/" target="_blank" rel="noreferrer">
+                    <img src={m4} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://finboard-rosy.vercel.app/" target="_blank" rel="noreferrer">
+                    <h2>FinBoard — Financial Analytics Dashboard</h2>
+                </a>
+
+                <p>
+                Interactive financial analytics dashboard visualizing market data
+                using dynamic charts and real-time metrics.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="https://realschoolmanagementsystem.netlify.app/" target="_blank" rel="noreferrer">
+                    <img src={m5} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://realschoolmanagementsystem.netlify.app/" target="_blank" rel="noreferrer">
+                    <h2>EduWave — School Management System</h2>
+                </a>
+
+                <p>
+                Built a comprehensive school management system to streamline
+                student records and administrative workflows.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://github.com/amareshwar3/Retrieval-Augmented-Generation-RAG" target="_blank" rel="noreferrer">
+                    <img src={m6} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://github.com/amareshwar3/Retrieval-Augmented-Generation-RAG" target="_blank" rel="noreferrer">
+                    <h2>AI Tutor — RAG Chatbot</h2>
+                </a>
+
+                <p>
+                AI-powered chatbot answering chemistry questions using
+                Retrieval-Augmented Generation with LangChain and ChromaDB.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
+                <a href="https://github.com/amareshwar3/Stock-Price-Prediction" target="_blank" rel="noreferrer">
+                    <img src={m7} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://github.com/amareshwar3/Stock-Price-Prediction" target="_blank" rel="noreferrer">
+                    <h2>Stock Price Prediction</h2>
+                </a>
+
+                <p>
+                Machine learning model for predicting stock price trends
+                using historical financial datasets.
+                </p>
             </div>
+
+
             <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
+                <a href="https://github.com/amareshwar3/Translation-with-Transformer" target="_blank" rel="noreferrer">
+                    <img src={m8} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+
+                <a href="https://github.com/amareshwar3/Translation-with-Transformer" target="_blank" rel="noreferrer">
+                    <h2>Transformer Neural Machine Translation</h2>
+                </a>
+
+                <p>
+                Implemented a transformer-based neural machine translation model
+                from scratch using TensorFlow with attention visualization.
+                </p>
             </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+
         </div>
     </div>
     );

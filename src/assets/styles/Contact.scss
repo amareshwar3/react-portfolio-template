@@ -4,22 +4,28 @@
   margin-right: 5px;
 }
 
+.contact-mail a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 .contact-form {
   padding-top: 20px;
 
-  button {
+  .contact-submit {
     float: right;
     background-color: white;
     color: #050f0b;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
   }
 
-  button:hover {
+  .contact-submit:hover {
     background-color: #5000ca;
     color: white;
-  }
-
-  fieldset {
-    background-color: white;
   }
 }
 
@@ -34,8 +40,11 @@ label {
   padding-bottom: 15px;
 }
 
-.form-flex .MuiFormControl-root {
+.input-group {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 form {
@@ -45,4 +54,46 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #c5ccd3;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #0d1116 !important;
+  -webkit-text-fill-color: #0d1116 !important;
+  caret-color: #0d1116;
+  opacity: 1;
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  outline: none;
+  border-color: #5000ca;
+  box-shadow: 0 0 0 2px rgba(80, 0, 202, 0.15);
+}
+
+.input-error {
+  border-color: #b00020;
+}
+
+.error-text {
+  color: #b00020;
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form-flex {
+    flex-direction: column;
+  }
 }
